@@ -6,7 +6,6 @@ export default function App() {
   return (
     <div className="App">
       <h1 style={{ marginTop: 70 }}>
-        {" "}
         <span style={{ color: "blue" }}>Bollwood</span> movies
       </h1>
       <p>checkout few genre of Bollwood movies and it's rating here</p>
@@ -22,7 +21,7 @@ export default function App() {
       <button style={genreStyle} onClick={romanceClicked}>
         Romance
       </button>
-      <hr style={{ width: 400, marginTop: 18 }}></hr>
+      <hr style={{ width: "80%", marginTop: 18 }}></hr>
 
       <div style={contentStyle}>
         <p id="name1">
