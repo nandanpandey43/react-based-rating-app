@@ -24,27 +24,27 @@ export default function App() {
       <hr style={{ width: "80%", marginTop: 18 }}></hr>
 
       <div style={contentStyle}>
-        <p id="name1">
-          <strong>book no. 2</strong>
-        </p>
+        <h4 id="name1">
+          <strong>Movie 1</strong>
+        </h4>
         <p id="rate1">
           <small>4.5/5</small>
         </p>
       </div>
 
       <div style={contentStyle}>
-        <p id="name2">
-          <strong>book no. 2</strong>
-        </p>
+        <h4 id="name2">
+          <strong>movie 2</strong>
+        </h4>
         <p id="rate2">
           <small>4.5/5</small>
         </p>
       </div>
 
       <div style={contentStyle}>
-        <p id="name3">
-          <strong>book no. 2</strong>
-        </p>
+        <h4 id="name3">
+          <strong>movie 3</strong>
+        </h4>
         <p id="rate3">
           <small>4.5/5</small>
         </p>
